@@ -1,371 +1,461 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #0C0B0B;
+  background-color: #0c0b0b;
 }
 
 header {
-    display: flex;
-    font-family: "Paytone One", sans-serif;
-
+  display: flex;
+  font-family: "Paytone One", sans-serif;
 }
 
 header ul {
-    display: flex;
-    color: #FFFFFF;
-    justify-content: space-evenly;
-    list-style: none;
-    padding: 2%;
-    font-size: xx-large;
-    width: 100%;
-    margin-left: -10rem;
-
+  display: flex;
+  color: #ffffff;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 2%;
+  font-size: xx-large;
+  width: 100%;
+  margin-left: -10rem;
 }
 
 .bola1 {
-    border-radius: 50%;
-    display: inline-block;
-    height: 600px;
-    margin-left: -12rem;
-    width: 900px;
-    margin-top: -15rem;
-    background-color: #43A7F9;
+  border-radius: 50%;
+  display: inline-block;
+  height: 600px;
+  margin-left: -12rem;
+  width: 900px;
+  margin-top: -15rem;
+  background-color: #43a7f9;
 }
 
 .bola2 {
-
-    float: left;
-    width: 700px;
-    height: 700px;
-    shape-outside: circle(50% at 30%);
-    clip-path: circle(50% at 0%);
-    background-color: #43A7F9;
-    transform: rotateY(180deg);
-    position: absolute;
-    right: 0;
-    margin-top: 25%;
+  float: left;
+  width: 700px;
+  height: 700px;
+  shape-outside: circle(50% at 30%);
+  clip-path: circle(50% at 0%);
+  background-color: #43a7f9;
+  transform: rotateY(180deg);
+  position: absolute;
+  right: 0;
+  margin-top: 25%;
 }
 
 .icongithub {
-    height: 200px;
-    margin-right: -14rem;
-    margin-top: -2rem;
+  height: 200px;
+  margin-right: -14rem;
+  margin-top: -2rem;
 }
 
 main {
-    font-family: "Paytone One", sans-serif;
-    color: white;
+  font-family: "Paytone One", sans-serif;
+  color: white;
 }
 
 .titlemain {
-    text-align: right;
-    margin-right: 15%;
-    font-size: 400%;
-    margin-bottom: 30%;
-
+  text-align: right;
+  margin-right: 15%;
+  font-size: 400%;
+  margin-bottom: 30%;
 }
 
 .letraspequenas {
-
-    text-align: right;
-    font-size: 60%;
-
+  text-align: right;
+  font-size: 60%;
 }
 
 .Tituloprojetos {
-    font-size: 100%;
-    margin-right: 73%;
-    margin-top: 15%;
-
+  font-size: 100%;
+  margin-right: 73%;
+  margin-top: 15%;
 }
 
 .Projeto1 {
-    display: flex;
-    font-size: 60%;
-    margin-right: 11%;
-    margin-top: 5%;
-    justify-content: space-evenly;
+  display: flex;
+  font-size: 60%;
+  margin-right: 11%;
+  margin-top: 5%;
+  justify-content: space-evenly;
 }
 
 .btnclique1 {
-    width: 16%;
-    height: 40px;
-    background-color: #D9D9D9;
-    border-radius: 1000px;
-    text-align: center;
-    font-size: 35%;
-    color: black;
-    margin-left: 12%;
-    margin-top: 1%;
-
+  width: 16%;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 1000px;
+  text-align: center;
+  font-size: 35%;
+  color: black;
+  margin-left: 12%;
+  margin-top: 1%;
 }
 
 .nomegrid {
-    font-size: 60%;
-    margin-right: 78%;
-    margin-top: 1%;
+  font-size: 60%;
+  margin-right: 78%;
+  margin-top: 1%;
 }
 
 .Projeto2 {
-    display: flex;
-    font-size: 60%;
-    margin-left: 11%;
-    margin-top: 5%;
-    justify-content: space-evenly;
+  display: flex;
+  font-size: 60%;
+  margin-left: 11%;
+  margin-top: 5%;
+  justify-content: space-evenly;
 }
 
 .Projeto3 {
-
-    display: flex;
-    font-size: 60%;
-    margin-left: 25%;
-    margin-top: 5%;
-    justify-content: space-evenly;
+  display: flex;
+  font-size: 60%;
+  margin-left: 25%;
+  margin-top: 5%;
+  justify-content: space-evenly;
 }
 
-.main {}
+.main {
+}
 
 .bola3 {
-
-    float: left;
-    width: 700px;
-    height: 700px;
-    shape-outside: circle(50% at 30%);
-    clip-path: circle(50% at 0%);
-    background-color: #43A7F9;
-    position: absolute;
-    left: 0;
-
-
+  float: left;
+  width: 700px;
+  height: 700px;
+  shape-outside: circle(50% at 30%);
+  clip-path: circle(50% at 0%);
+  background-color: #43a7f9;
+  position: absolute;
+  left: 0;
 }
 
 .bola4 {
-
-    float: left;
-    width: 700px;
-    height: 700px;
-    shape-outside: circle(50% at 30%);
-    clip-path: circle(50% at 0%);
-    background-color: #43A7F9;
-    position: absolute;
-    right: 0;
-    transform: rotateY(180deg);
+  float: left;
+  width: 700px;
+  height: 700px;
+  shape-outside: circle(50% at 30%);
+  clip-path: circle(50% at 0%);
+  background-color: #43a7f9;
+  position: absolute;
+  right: 0;
+  transform: rotateY(180deg);
 }
 
 .bola5 {
-    float: left;
-    width: 700px;
-    height: 700px;
-    shape-outside: circle(50% at 30%);
-    clip-path: circle(50% at 0%);
-    background-color: #43A7F9;
-    position: absolute;
-    right: 0;
-    transform: rotateY(180deg);
+  float: left;
+  width: 700px;
+  height: 700px;
+  shape-outside: circle(50% at 30%);
+  clip-path: circle(50% at 0%);
+  background-color: #43a7f9;
+  position: absolute;
+  right: 0;
+  transform: rotateY(180deg);
 }
 
 .bola6 {
-    float: left;
-    width: 700px;
-    height: 700px;
-    shape-outside: circle(50% at 30%);
-    clip-path: circle(50% at 0%);
-    background-color: #43A7F9;
-    left: 0;
-    position: absolute;
-    margin-top: 5%;
+  float: left;
+  width: 700px;
+  height: 700px;
+  shape-outside: circle(50% at 30%);
+  clip-path: circle(50% at 0%);
+  background-color: #43a7f9;
+  left: 0;
+  position: absolute;
+  margin-top: 5%;
 }
 
 .quadrado {
-
-    float: left;
-    width: 70%;
-    height: 100%;
-    shape-outside: inset(20px 5px 30px 10px round 50px);
-    background-color: #43A7F9;
-    right: 0;
-    position: absolute;
+  float: left;
+  width: 70%;
+  height: 100%;
+  shape-outside: inset(20px 5px 30px 10px round 50px);
+  background-color: #43a7f9;
+  right: 0;
+  position: absolute;
 }
 
 .btnclique2 {
-    width: 16%;
-    height: 40px;
-    background-color: #D9D9D9;
-    border-radius: 1000px;
-    text-align: center;
-    font-size: 35%;
-    color: black;
-    margin-left: 71.7%;
-    margin-top: 1%;
+  width: 16%;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 1000px;
+  text-align: center;
+  font-size: 35%;
+  color: black;
+  margin-left: 71.7%;
+  margin-top: 1%;
 }
 
 .nomeflex {
+  font-size: 60%;
+  margin-right: 17.5%;
 
-    font-size: 60%;
-    margin-right: 17.5%;
-
-    margin-top: 1%;
+  margin-top: 1%;
 }
 
 .btnclique3 {
-    width: 16%;
-    height: 40px;
-    background-color: #D9D9D9;
-    border-radius: 1000px;
-    text-align: center;
-    font-size: 35%;
-    color: black;
-    margin-left: 32.5%;
-    margin-top: 1%;
+  width: 16%;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 1000px;
+  text-align: center;
+  font-size: 35%;
+  color: black;
+  margin-left: 32.5%;
+  margin-top: 1%;
 }
 
 .nomedelivery {
-    font-size: 60%;
-    margin-right: 54.5%;
-    margin-top: 1%;
+  font-size: 60%;
+  margin-right: 54.5%;
+  margin-top: 1%;
 }
 
 .Habilidades {
-
-    font-size: 90%;
-    margin-right: 65%;
-    margin-top: 15%;
-    margin-left: 10%;
+  font-size: 90%;
+  margin-right: 65%;
+  margin-top: 15%;
+  margin-left: 10%;
 }
 
 .qualidades {
-    font-size: 90%;
-    margin-top: 15%;
-
-
+  font-size: 90%;
+  margin-top: 15%;
 }
 
 .qualidades ul {
-
-    text-align: left;
-    list-style: none;
-
+  text-align: left;
+  list-style: none;
 }
 
-
-
 .box-user1 input {
-    color: white;
-    font-family: "Lustria", serif;
-    width: 500px;
-    padding: 20px 0;
-    outline: none;
-    background-color: #C89E9E;
-    border: 0;
-    font-size: 30%;
-    padding-left: 2%;
+  color: white;
+  font-family: "Lustria", serif;
+  width: 500px;
+  padding: 20px 0;
+  outline: none;
+  background-color: #c89e9e;
+  border: 0;
+  font-size: 30%;
+  padding-left: 2%;
 }
 
 .box-user2 input {
-    color: white;
-    font-family: "Lustria", serif;
-    width: 500px;
-    padding: 20px 0;
-    outline: none;
-    background-color: #C89E9E;
-    border: 0;
-    font-size: 30%;
-    padding-left: 2%;
+  color: white;
+  font-family: "Lustria", serif;
+  width: 500px;
+  padding: 20px 0;
+  outline: none;
+  background-color: #c89e9e;
+  border: 0;
+  font-size: 30%;
+  padding-left: 2%;
 }
 
 .box-user3 input {
-
-    font-family: "Lustria", serif;
-    width: 500px;
-    padding: 180px 0;
-    outline: none;
-    background-color: #C89E9E;
-    border: 0;
-    font-size: 30%;
-    padding-left: 2%;
-
+  font-family: "Lustria", serif;
+  width: 500px;
+  padding: 180px 0;
+  outline: none;
+  background-color: #c89e9e;
+  border: 0;
+  font-size: 30%;
+  padding-left: 2%;
 }
 
 .btnenviar {
-    font-family: "Lustria", serif;
-    background-color: #D9D9D9;
-    width: 500px;
-    padding: 10px 0;
+  font-family: "Lustria", serif;
+  background-color: #d9d9d9;
+  width: 500px;
+  padding: 10px 0;
 
-    outline: none;
-    border: 0;
-    font-size: 30%;
-    text-align: center;
-    border-radius: 100px;
-    margin-top: 5%;
-
+  outline: none;
+  border: 0;
+  font-size: 30%;
+  text-align: center;
+  border-radius: 100px;
+  margin-top: 5%;
 }
 
+.menores::placeholder {
+}
 
-.menores::placeholder {}
-
-.mensagemlugar::placeholder {}
+.mensagemlugar::placeholder {
+}
 
 ::-webkit-input-placeholder {
-    color: white;
+  color: white;
 }
 
 .inputs {
-    text-align: left;
-    margin-left: 25%;
-
+  text-align: left;
+  margin-left: 25%;
 }
 
 .contato {
-    font-size: 120%;
-    margin-right: 5%;
-    margin-bottom: 20%;
+  font-size: 120%;
+  margin-right: 5%;
+  margin-bottom: 20%;
 }
 
 .quadradocima {
-    width: 10%;
-    height: 10%;
-    margin-left: 70%;
-    margin-top: 5%;
+  width: 10%;
+  height: 10%;
+  margin-left: 70%;
+  margin-top: 5%;
 }
 
 .setaicon {
-    width: 80%;
-    margin-left: 50%;
+  width: 80%;
+  margin-left: 50%;
 }
 
 .linkedinicon {
-    width: 100%;
-    margin-left: 40%;
+  width: 100%;
+  margin-left: 40%;
 }
-
 
 footer {
-    
-    width: 100%;
-    font-family: "Lustria", serif;
-    color: white;
-    background-color: #43A7F9;
-    margin-top: 60%;
+  width: 100%;
+  font-family: "Lustria", serif;
+  color: white;
+  background-color: #43a7f9;
+  margin-top: 60%;
 }
-.contfooter{
- margin-left: 45%;
- font-size: 200%;
-}
-
-.footerlow{
-margin-left: 40%;
-font-size: 140%;
+.contfooter {
+  margin-left: 45%;
+  font-size: 200%;
 }
 
-float: left;
-width: 600px;
-height: 600px;
-margin: 20px;
-shape-outside: circle(50% at 30%);
-clip-path: circle(50% at 0%);
-background-color: #43A7F9;
+.footerlow {
+  margin-left: 40%;
+  font-size: 140%;
+}
+.dark li {
+  background-color: wheat;
+  color: #2f2f22;
+}
+.dark div {
+  background-color: wheat;
+  color: #2f2f22;
+}
+.dark .bola1 {
+  background-color: #150e3e;
+}
+.dark .bola2 {
+  background-color: #150e3e;
+}
+.dark .bola3 {
+  background-color: #150e3e;
+}
+.dark .bola4 {
+  background-color: #150e3e;
+}
+.dark .bola5 {
+  background-color: #150e3e;
+}
+.dark .bola6 {
+  background-color: #150e3e;
+}
+.dark {
+  background-color: wheat;
+  color: #2f2f22;
+}
+.dark .quadrado {
+  background-color: #150e3e;
+}
+.dark .inputs {
+  background-color: #150e3e;
+}
+.dark .box-user1 {
+  background-color: #150e3e;
+}
+.dark .box-user2 {
+  background-color: #150e3e;
+}
+.dark .box-user3 {
+  background-color: #150e3e;
+}
+.dark .contato {
+  background-color: #150e3e;
+}
+.dark .quadradocima {
+  background-color: #150e3e;
+}
+.dark .contfooter {
+  background-color: #2f2f22;
+  color: white;
+}
+.dark .footerlow {
+  color: white;
+  background-color: #2f2f22;
+}
+.dark footer {
+  color: white;
+  background-color: #2f2f22;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 35px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ecebf9;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 27px;
+  width: 27px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #150e3e;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #150e3e;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #150e3e;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(38px);
+  -ms-transform: translateX(28px);
+  transform: translateX(28px);
+  background-color: #c8c1f1;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
